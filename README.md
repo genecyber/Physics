@@ -10,6 +10,12 @@ The Unified Theory Application is designed to:
 - Explore relationships between various theoretical frameworks
 - Provide an interactive interface for physics experimentation
 
+<a href="ss.png">
+    <img src="ss.png" alt="Unified Theory Application Interface" width="33%">
+</a>
+
+*Interactive visualization of quantum field interactions and relativistic effects*
+
 ### Key Components
 
 - **Physics Subsystems**:
@@ -18,12 +24,6 @@ The Unified Theory Application is designed to:
   - Electromagnetic Forces (Basic field visualization complete, Maxwell solver upcoming)
   - Statistical Mechanics (Ideal gas calculations complete, quantum statistics upcoming)
   - Cosmological Models (Basic FLRW model complete, perturbation theory upcoming)
-
-- **Technical Stack**:
-  - Flask Backend (Python 3.8)
-  - React Frontend (Node 14)
-  - Docker Containerization
-  - Event-Driven Architecture (Upcoming)
 
 ## Installation
 
