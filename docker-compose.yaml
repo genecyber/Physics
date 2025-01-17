@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  node:
+    build:
+      context: .
+      target: node-base
+    working_dir: /node_app
+    volumes:
+      - node_modules:/node_app/node_modules
+      - build_output:/node_app/build
+    command: npm run build
+    networks:
+      - unifiedtheory-network
+
+  web:
+    build: .
+    working_dir: /app
+    command: flask run --host=0.0.0.0 --port=5001
+    depends_on:
+      - node
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./app:/app/app
+      - build_output:/app/static
+    networks:
+      - unifiedtheory-network
+
+networks:
+  unifiedtheory-network:
+    driver: bridge
+
+volumes:
+  node_modules:
+  build_output:

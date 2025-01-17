@@ -1,0 +1,10 @@
+services:
+  combined-app:
+    build:
+      context: .
+      dockerfile: Dockerfile  # The combined Dockerfile
+    ports:
+      - "5010:5010"  # Expose Python app port
+      - "3010:3010"  # Expose Node.js app port
+    stdin_open: true  # Keep stdin open for interactive terminal
+    tty: true         # Allocate a pseudo-TTY

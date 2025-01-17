@@ -1,0 +1,906 @@
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp
+
+Listing contents of directory: /app
+{
+  "/app": {
+    "dirs": [
+      "react_app", 
+      "app", 
+      ".vscode"
+    ], 
+    "files": [
+      "docker-compose.yaml", 
+      "out.txt", 
+      ".DS_Store", 
+      "requirements.txt", 
+      "Dockerfile", 
+      "crawl.js", 
+      "README.md", 
+      "crawl.sh", 
+      ".gitignore"
+    ]
+  }, 
+  "/app/.vscode": {
+    "dirs": [], 
+    "files": [
+      "launch.json"
+    ]
+  }, 
+  "/app/app": {
+    "dirs": [
+      "subsystems"
+    ], 
+    "files": [
+      ".DS_Store", 
+      "__init__.py", 
+      "event_bus.py"
+    ]
+  }, 
+  "/app/app/subsystems": {
+    "dirs": [], 
+    "files": [
+      "electromagnetic.py", 
+      "quantum_field.py", 
+      "statistical_mechanics.py", 
+      "general_relativity.py", 
+      "cosmological.py"
+    ]
+  }, 
+  "/app/react_app": {
+    "dirs": [
+      "public", 
+      "build", 
+      "src"
+    ], 
+    "files": [
+      ".DS_Store", 
+      "package-lock.json", 
+      "package.json"
+    ]
+  }, 
+  "/app/react_app/build": {
+    "dirs": [
+      "static"
+    ], 
+    "files": [
+      "index.html", 
+      "asset-manifest.json"
+    ]
+  }, 
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }, 
+  "/app/react_app/public": {
+    "dirs": [], 
+    "files": [
+      "index.html"
+    ]
+  }, 
+  "/app/react_app/src": {
+    "dirs": [], 
+    "files": [
+      "QuantumFieldComponent.js", 
+      "ElectromagneticComponent.js", 
+      "GeneralRelativityComponent.js", 
+      "StatisticalMechanicsComponent.js", 
+      "index.js", 
+      "index.css", 
+      "App.js", 
+      "CosmologicalComponent.js"
+    ]
+  }
+}
+
+Checking if /app/react_app should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app
+
+Listing contents of directory: /app/react_app
+{
+  "/app/react_app": {
+    "dirs": [
+      "public", 
+      "build", 
+      "src"
+    ], 
+    "files": [
+      ".DS_Store", 
+      "package-lock.json", 
+      "package.json"
+    ]
+  }, 
+  "/app/react_app/build": {
+    "dirs": [
+      "static"
+    ], 
+    "files": [
+      "index.html", 
+      "asset-manifest.json"
+    ]
+  }, 
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }, 
+  "/app/react_app/public": {
+    "dirs": [], 
+    "files": [
+      "index.html"
+    ]
+  }, 
+  "/app/react_app/src": {
+    "dirs": [], 
+    "files": [
+      "QuantumFieldComponent.js", 
+      "ElectromagneticComponent.js", 
+      "GeneralRelativityComponent.js", 
+      "StatisticalMechanicsComponent.js", 
+      "index.js", 
+      "index.css", 
+      "App.js", 
+      "CosmologicalComponent.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/public should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fpublic
+
+Listing contents of directory: /app/react_app/public
+{
+  "/app/react_app/public": {
+    "dirs": [], 
+    "files": [
+      "index.html"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fpublic%2Findex.html
+
+Reading contents of file: /app/react_app/public/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Theory App</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/static/js/bundle.js"></script>
+</body>
+</html>
+Checking if /app/react_app/build should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild
+
+Listing contents of directory: /app/react_app/build
+{
+  "/app/react_app/build": {
+    "dirs": [
+      "static"
+    ], 
+    "files": [
+      "index.html", 
+      "asset-manifest.json"
+    ]
+  }, 
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic
+
+Listing contents of directory: /app/react_app/build/static
+{
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fbuild%2Findex.html
+
+Reading contents of file: /app/react_app/build/index.html
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Unified Theory App</title><link href="/static/css/main.8af2a0e8.chunk.css" rel="stylesheet"></head><body><div id="root"></div><script src="/static/js/bundle.js"></script><script>!function(e){function r(r){for(var n,i,a=r[0],p=r[1],f=r[2],c=0,s=[];c<a.length;c++)i=a[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(l&&l(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var p=t[a];0!==o[p]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/";var a=this["webpackJsonpunified-theory-react-app"]=this["webpackJsonpunified-theory-react-app"]||[],p=a.push.bind(a);a.push=r,a=a.slice();for(var f=0;f<a.length;f++)r(a[f]);var l=p;t()}([])</script><script src="/static/js/2.30940144.chunk.js"></script><script src="/static/js/main.ede985a2.chunk.js"></script></body></html>
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/src should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fsrc
+
+Listing contents of directory: /app/react_app/src
+{
+  "/app/react_app/src": {
+    "dirs": [], 
+    "files": [
+      "QuantumFieldComponent.js", 
+      "ElectromagneticComponent.js", 
+      "GeneralRelativityComponent.js", 
+      "StatisticalMechanicsComponent.js", 
+      "index.js", 
+      "index.css", 
+      "App.js", 
+      "CosmologicalComponent.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic
+
+Listing contents of directory: /app/react_app/build/static
+{
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fbuild%2Findex.html
+
+Reading contents of file: /app/react_app/build/index.html
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Unified Theory App</title><link href="/static/css/main.8af2a0e8.chunk.css" rel="stylesheet"></head><body><div id="root"></div><script src="/static/js/bundle.js"></script><script>!function(e){function r(r){for(var n,i,a=r[0],p=r[1],f=r[2],c=0,s=[];c<a.length;c++)i=a[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(l&&l(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var p=t[a];0!==o[p]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/";var a=this["webpackJsonpunified-theory-react-app"]=this["webpackJsonpunified-theory-react-app"]||[],p=a.push.bind(a);a.push=r,a=a.slice();for(var f=0;f<a.length;f++)r(a[f]);var l=p;t()}([])</script><script src="/static/js/2.30940144.chunk.js"></script><script src="/static/js/main.ede985a2.chunk.js"></script></body></html>
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fpublic%2Findex.html
+
+Reading contents of file: /app/react_app/public/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Theory App</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/static/js/bundle.js"></script>
+</body>
+</html>
+Checking if /app/app should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Fapp
+
+Listing contents of directory: /app/app
+{
+  "/app/app": {
+    "dirs": [
+      "subsystems"
+    ], 
+    "files": [
+      ".DS_Store", 
+      "__init__.py", 
+      "event_bus.py"
+    ]
+  }, 
+  "/app/app/subsystems": {
+    "dirs": [], 
+    "files": [
+      "electromagnetic.py", 
+      "quantum_field.py", 
+      "statistical_mechanics.py", 
+      "general_relativity.py", 
+      "cosmological.py"
+    ]
+  }
+}
+
+Checking if /app/app/subsystems should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Fapp%2Fsubsystems
+
+Listing contents of directory: /app/app/subsystems
+{
+  "/app/app/subsystems": {
+    "dirs": [], 
+    "files": [
+      "electromagnetic.py", 
+      "quantum_field.py", 
+      "statistical_mechanics.py", 
+      "general_relativity.py", 
+      "cosmological.py"
+    ]
+  }
+}
+
+Checking if /app/.vscode should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2F.vscode
+
+Listing contents of directory: /app/.vscode
+{
+  "/app/.vscode": {
+    "dirs": [], 
+    "files": [
+      "launch.json"
+    ]
+  }
+}
+
+Checking if /app/app/subsystems should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Fapp%2Fsubsystems
+
+Listing contents of directory: /app/app/subsystems
+{
+  "/app/app/subsystems": {
+    "dirs": [], 
+    "files": [
+      "electromagnetic.py", 
+      "quantum_field.py", 
+      "statistical_mechanics.py", 
+      "general_relativity.py", 
+      "cosmological.py"
+    ]
+  }
+}
+
+Checking if /app/react_app/public should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fpublic
+
+Listing contents of directory: /app/react_app/public
+{
+  "/app/react_app/public": {
+    "dirs": [], 
+    "files": [
+      "index.html"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fpublic%2Findex.html
+
+Reading contents of file: /app/react_app/public/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Theory App</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/static/js/bundle.js"></script>
+</body>
+</html>
+Checking if /app/react_app/build should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild
+
+Listing contents of directory: /app/react_app/build
+{
+  "/app/react_app/build": {
+    "dirs": [
+      "static"
+    ], 
+    "files": [
+      "index.html", 
+      "asset-manifest.json"
+    ]
+  }, 
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic
+
+Listing contents of directory: /app/react_app/build/static
+{
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fbuild%2Findex.html
+
+Reading contents of file: /app/react_app/build/index.html
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Unified Theory App</title><link href="/static/css/main.8af2a0e8.chunk.css" rel="stylesheet"></head><body><div id="root"></div><script src="/static/js/bundle.js"></script><script>!function(e){function r(r){for(var n,i,a=r[0],p=r[1],f=r[2],c=0,s=[];c<a.length;c++)i=a[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(l&&l(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var p=t[a];0!==o[p]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/";var a=this["webpackJsonpunified-theory-react-app"]=this["webpackJsonpunified-theory-react-app"]||[],p=a.push.bind(a);a.push=r,a=a.slice();for(var f=0;f<a.length;f++)r(a[f]);var l=p;t()}([])</script><script src="/static/js/2.30940144.chunk.js"></script><script src="/static/js/main.ede985a2.chunk.js"></script></body></html>
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/src should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fsrc
+
+Listing contents of directory: /app/react_app/src
+{
+  "/app/react_app/src": {
+    "dirs": [], 
+    "files": [
+      "QuantumFieldComponent.js", 
+      "ElectromagneticComponent.js", 
+      "GeneralRelativityComponent.js", 
+      "StatisticalMechanicsComponent.js", 
+      "index.js", 
+      "index.css", 
+      "App.js", 
+      "CosmologicalComponent.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic
+
+Listing contents of directory: /app/react_app/build/static
+{
+  "/app/react_app/build/static": {
+    "dirs": [
+      "css", 
+      "js"
+    ], 
+    "files": []
+  }, 
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }, 
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fbuild%2Findex.html
+
+Reading contents of file: /app/react_app/build/index.html
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Unified Theory App</title><link href="/static/css/main.8af2a0e8.chunk.css" rel="stylesheet"></head><body><div id="root"></div><script src="/static/js/bundle.js"></script><script>!function(e){function r(r){for(var n,i,a=r[0],p=r[1],f=r[2],c=0,s=[];c<a.length;c++)i=a[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(l&&l(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var p=t[a];0!==o[p]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/";var a=this["webpackJsonpunified-theory-react-app"]=this["webpackJsonpunified-theory-react-app"]||[],p=a.push.bind(a);a.push=r,a=a.slice();for(var f=0;f<a.length;f++)r(a[f]);var l=p;t()}([])</script><script src="/static/js/2.30940144.chunk.js"></script><script src="/static/js/main.ede985a2.chunk.js"></script></body></html>
+Checking if /app/react_app/build/static/css should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fcss
+
+Listing contents of directory: /app/react_app/build/static/css
+{
+  "/app/react_app/build/static/css": {
+    "dirs": [], 
+    "files": [
+      "main.8af2a0e8.chunk.css", 
+      "main.8af2a0e8.chunk.css.map"
+    ]
+  }
+}
+
+Checking if /app/react_app/build/static/js should be ignored, false
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Freact_app%2Fbuild%2Fstatic%2Fjs
+
+Listing contents of directory: /app/react_app/build/static/js
+{
+  "/app/react_app/build/static/js": {
+    "dirs": [], 
+    "files": [
+      "2.30940144.chunk.js.map", 
+      "runtime-main.18a01555.js", 
+      "2.30940144.chunk.js", 
+      "2.30940144.chunk.js.LICENSE.txt", 
+      "main.ede985a2.chunk.js.map", 
+      "runtime-main.18a01555.js.map", 
+      "main.ede985a2.chunk.js"
+    ]
+  }
+}
+
+Requesting URL: http://localhost:5001/read_file?path=%2Fapp%2Freact_app%2Fpublic%2Findex.html
+
+Reading contents of file: /app/react_app/public/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Theory App</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/static/js/bundle.js"></script>
+</body>
+</html>
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Fstatic
+
+Listing contents of directory: /app/static
+{
+  "error": "Directory does not exist"
+}
+
+Requesting URL: http://localhost:5001/list_dir?path=%2Fapp%2Ftemplates
+
+Listing contents of directory: /app/templates
+{
+  "error": "Directory does not exist"
+}
+
+Requesting URL: http://localhost:5001/list_dir?path=%2Fnode_app
+
+Listing contents of directory: /node_app
+{
+  "error": "Directory does not exist"
+}
+

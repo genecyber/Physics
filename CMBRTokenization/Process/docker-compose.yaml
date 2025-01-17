@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cmbr-processor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/usr/src/app/data
+    working_dir: /usr/src/app
+    command: python src/process_data.py
+    container_name: cmbr-processor-container
